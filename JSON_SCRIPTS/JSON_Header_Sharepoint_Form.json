@@ -1,0 +1,318 @@
+{
+    "elmType": "div",
+    "attributes": {
+        "class": "ms-fontSize-12  sp-css-backgroundColor-blueBackground07   ms-fontColor-black"
+    },
+    "style": {
+        "width": "100%",
+        "border-top-width": "0px",
+        "border-bottom-width": "1px",
+        "border-left-width": "0px",
+        "border-right-width": "0px",
+        "border-style": "solid",
+        "margin-bottom": "16px",
+        "margin": "5px",
+        "height": "120px",
+        "border": "2px hidden",
+        "padding": "10px"
+    },
+    "children": [
+        {
+            "elmType": "div",
+            "style": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "center",
+                "margin": "20px",
+                "white-space": "nowrap"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+                    "txtContent": "CC_Eletrovia",
+                    "style": {
+                        "margin-bottom": "10px"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "style": {
+                        "margin-bottom": "10px"
+                    },
+                    "attributes": {
+                        "iconName": "=if(Number([$centro_de_custo]) > 0 ,'Money','Money')",
+                        "class": "='ms-fontSize-42' + if(Number([$centro_de_custo]) > 0 ,' ms-fontColor-sharedYellowGreen10' , ' ms-fontColor-success')"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "txtContent": "[$centro_de_custo]"
+                }
+            ]
+        },
+        {
+            "elmType": "div",
+            "style": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "center",
+                "margin": "20px",
+                "white-space": "nowrap"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+                    "txtContent": "Carimbo_GE",
+                    "style": {
+                        "margin-bottom": "10px"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "style": {
+                        "margin-bottom": "10px"
+                    },
+                    "attributes": {
+                        "iconName": "=if(Number([$Data_Aprovacao_GE]) > 0 ,'CompletedSolid','DateTimeMirrored')",
+                        "class": "='ms-fontSize-42' + if(Number([$Data_Aprovacao_GE]) > 0 ,' ms-fontColor-sharedYellowGreen10' , ' ms-fontColor-success')"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "txtContent": "=if(getDate([$Data_Aprovacao_GE]) + '/' + Number(getMonth([$Data_Aprovacao_GE])+1) + '/' + getYear([$Data_Aprovacao_GE]) == 'NaN/NaN/NaN', ' ⌛',getDate([$Data_Aprovacao_GE]) + '/' + Number(getMonth([$Data_Aprovacao_GE])+1) + '/' + getYear([$Data_Aprovacao_GE]))"
+                }
+            ]
+        },
+        {
+            "elmType": "div",
+            "style": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "center",
+                "margin": "20px",
+                "white-space": "nowrap"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+                    "txtContent": "Emiss. Requisição",
+                    "style": {
+                        "margin-bottom": "10px"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "style": {
+                        "margin-bottom": "10px"
+                    },
+                    "attributes": {
+                        "iconName": "=if(Number([$Emissao_RC]) > 0 ,'CompletedSolid','DateTimeMirrored')",
+                        "class": "='ms-fontSize-42' + if(Number([$Emissao_RC]) > 0 ,' ms-fontColor-sharedYellowGreen10' , ' ms-fontColor-success')"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "txtContent": "=if(getDate([$Emissao_RC]) + '/' + Number(getMonth([$Emissao_RC])+1) + '/' + getYear([$Emissao_RC]) == 'NaN/NaN/NaN', ' ⌛',getDate([$Data_Aprovacao_GE]) + '/' + Number(getMonth([$Data_Aprovacao_GE])+1) + '/' + getYear([$Data_Aprovacao_GE]))"
+                }
+            ]
+        },
+        {
+            "elmType": "div",
+            "style": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "center",
+                "margin": "20px",
+                "white-space": "nowrap"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+                    "txtContent": "Aprov. Requisição",
+                    "style": {
+                        "margin-bottom": "10px"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "style": {
+                        "margin-bottom": "10px"
+                    },
+                    "attributes": {
+                        "iconName": "=if(Number([$Aprovacao_RC]) > 0 ,'CompletedSolid','DateTimeMirrored')",
+                        "class": "='ms-fontSize-42' + if(Number([$Aprovacao_RC]) > 0 ,' ms-fontColor-sharedYellowGreen10' , ' ms-fontColor-success')"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "txtContent": "=if(getDate([$Aprovacao_RC]) + '/' + Number(getMonth([$Aprovacao_RC])+1) + '/' + getYear([$Aprovacao_RC]) == 'NaN/NaN/NaN', ' ⌛',getDate([$Aprovacao_RC]) + '/' + Number(getMonth([$Aprovacao_RC])+1) + '/' + getYear([$Aprovacao_RC]))"
+                }
+            ]
+        },
+        {
+            "elmType": "div",
+            "style": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "center",
+                "margin": "20px",
+                "white-space": "nowrap"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+                    "txtContent": "Emiss. Pedido",
+                    "style": {
+                        "margin-bottom": "10px"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "style": {
+                        "margin-bottom": "10px"
+                    },
+                    "attributes": {
+                        "iconName": "=if(Number([$Emissao_OC]) > 0 ,'CompletedSolid','DateTimeMirrored')",
+                        "class": "='ms-fontSize-42' + if(Number([$Emissao_OC]) > 0 ,' ms-fontColor-sharedYellowGreen10' , ' ms-fontColor-success')"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "txtContent": "=if(getDate([$Emissao_OC]) + '/' + Number(getMonth([$Emissao_OC])+1) + '/' + getYear([$Emissao_OC]) == 'NaN/NaN/NaN', ' ⌛',getDate([$Emissao_OC]) + '/' + Number(getMonth([$Emissao_OC])+1) + '/' + getYear([$Emissao_OC]))"
+                }
+            ]
+        },
+        {
+            "elmType": "div",
+            "style": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "center",
+                "margin": "20px",
+                "white-space": "nowrap"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+                    "txtContent": "Entrega Armazém",
+                    "style": {
+                        "margin-bottom": "10px"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "style": {
+                        "margin-bottom": "10px"
+                    },
+                    "attributes": {
+                        "iconName": "=if(Number([$Entrega_Armazem]) > 0 ,'CompletedSolid','DeliveryTruck')",
+                        "class": "='ms-fontSize-42' + if(Number([$Entrega_Armazem]) > 0 ,' ms-fontColor-sharedYellowGreen10' , ' ms-fontColor-success')"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "txtContent": "=if(getDate([$Entrega_Armazem]) + '/' + Number(getMonth([$Entrega_Armazem])+1) + '/' + getYear([$Entrega_Armazem]) == 'NaN/NaN/NaN', ' ⌛',getDate([$Entrega_Armazem]) + '/' + Number(getMonth([$Entrega_Armazem])+1) + '/' + getYear([$Entrega_Armazem]))"
+                }
+            ]
+        },
+        {
+            "elmType": "div",
+            "style": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "center",
+                "margin": "20px",
+                "white-space": "nowrap"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+                    "txtContent": "Entrega Pátio",
+                    "style": {
+                        "margin-bottom": "10px"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "style": {
+                        "margin-bottom": "10px"
+                    },
+                    "attributes": {
+                        "iconName": "=if(Number([$Entrega_Patio]) > 0 ,'CompletedSolid','DeliveryTruck')",
+                        "class": "='ms-fontSize-42' + if(Number([$Entrega_Patio]) > 0 ,' ms-fontColor-sharedYellowGreen10' , ' ms-fontColor-success')"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "txtContent": "=if(getDate([$Entrega_Patio]) + '/' + Number(getMonth([$Entrega_Patio])+1) + '/' + getYear([$Entrega_Patio]) == 'NaN/NaN/NaN', ' ⌛',getDate([$Entrega_Patio]) + '/' + Number(getMonth([$Entrega_Patio])+1) + '/' + getYear([$Entrega_Patio]))"
+                }
+            ]
+        },
+        {
+            "elmType": "div",
+            "style": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "center",
+                "margin": "20px",
+                "white-space": "nowrap"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+                    "txtContent": "Envio Cliente",
+                    "style": {
+                        "margin-bottom": "10px"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "style": {
+                        "margin-bottom": "10px"
+                    },
+                    "attributes": {
+                        "iconName": "=if(Number([$Envio_Cliente]) > 0 ,'CompletedSolid','DeliveryTruck')",
+                        "class": "='ms-fontSize-42' + if(Number([$Envio_Cliente]) > 0 ,' ms-fontColor-sharedYellowGreen10' , ' ms-fontColor-success')"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "txtContent": "=if(getDate([$Envio_Cliente]) + '/' + Number(getMonth([$Envio_Cliente])+1) + '/' + getYear([$Envio_Cliente]) == 'NaN/NaN/NaN', ' ⌛',getDate([$Envio_Cliente]) + '/' + Number(getMonth([$Envio_Cliente])+1) + '/' + getYear([$Envio_Cliente]))"
+                }
+            ]
+        },
+        {
+            "elmType": "div",
+            "style": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "center",
+                "margin": "20px",
+                "white-space": "nowrap"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+                    "txtContent": "Recebimento_Cliente",
+                    "style": {
+                        "margin-bottom": "10px"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "style": {
+                        "margin-bottom": "10px"
+                    },
+                    "attributes": {
+                        "iconName": "=if(Number([$Data_Conf_Entrega_Cliente]) > 0 ,'CompletedSolid','VerifiedBrand')",
+                        "class": "='ms-fontSize-42' + if(Number([$Data_Conf_Entrega_Cliente]) > 0 ,' ms-fontColor-sharedYellowGreen10' , ' ms-fontColor-success')"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "txtContent": "=if(getDate([$Data_Conf_Entrega_Cliente]) + '/' + Number(getMonth([$Data_Conf_Entrega_Cliente])+1) + '/' + getYear([$Data_Conf_Entrega_Cliente]) == 'NaN/NaN/NaN', '⌛',getDate([$Data_Conf_Entrega_Cliente]) + '/' + Number(getMonth([$Data_Conf_Entrega_Cliente])+1) + '/' + getYear([$Data_Conf_Entrega_Cliente]))"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "sections": [
+        {
+            "displayname": "Detalhes da demanda XPTO 🚂 ",
+            "fields": [
+
+                "dt_aprovacao_GE",
+                "email_solicitante"
+            ]
+        },
+        {
+            "displayname": "Descrição Breve e Código",
+            "fields": [
+                "Descricao_Breve"
+            ]
+        },
+        {
+            "displayname": "Descrição Longa Padrão",
+            "fields": [
+                "Descricao_Longa"
+            ]
+        },
+        {
+            "displayname": "Detalhes da Requisição 🛒",
+            "fields": [
+                "RC",
+                "Tipo_Demanda",
+                "Tipo da Compra",
+                "Emissao_RC"
+            ]
+        },
+        {
+            "displayname": "Detalhes do Pedido 🛒",
+            "fields": [
+
+                "Data_Remessa",
+                "Entrega_Prevista",
+                "Nota_Fiscal"
+            ]
+        },
+        {
+            "displayname": "Detalhes do Recebimento 🚚",
+            "fields": [
+                "Desvio_Recebimento",
+                "Material_Recebido",
+                "Recebedor_Patio",
+                "Entrega_Patio",
+                "Quantidade_Recebida"
+            ]
+        },
+        {
+            "displayname": "Detalhes da Expedição 🚚",
+            "fields": [
+
+                "Data_Envio_Cliente",
+                "Quantidade_Enviada",
+                "Qtde_Pendente",
+                "Destino_Final"
+            ]
+        }
+    ]
+}
