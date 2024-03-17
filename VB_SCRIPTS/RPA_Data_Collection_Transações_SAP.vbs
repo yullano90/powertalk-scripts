@@ -51,7 +51,7 @@ User  = strUserName
 'lastDateInput = InputBox("INFORME A DATA FINAL: " & strUserName, "SISMF_COLETA_DATA_FINAL_IW38")
 WorkCenter = "ECEE10*"
 homeDate = "01.01.2022"
-lastDate = "12.12.2023"
+lastDate = "31.12.9999"
 SapUsr  = strUserName
 Pwd	= userInput
 
