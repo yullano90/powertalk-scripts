@@ -1,0 +1,136 @@
+{
+  "additionalRowClass": "=if(@rowIndex % 2 == 0,'ms-bgColor-gray0 ms-bgColor-themeLight--hover','')",
+  "commandBarProps": {
+    "commands": [
+      {
+        "key": "sync",
+        "primary": true,
+        "position": 0,
+        "hide": false
+      },
+      {
+        "key": "share",
+        "hide": true
+      },
+      {
+        "key": "new",
+        "hide": true
+      },
+      {
+        "key": "exportPowerBI",
+        "hide": true
+      },
+      {
+        "key": "powerBI",
+        "hide": true
+      },
+      {
+        "key": "powerBIVisualizeList",
+        "hide": true
+      },
+      {
+        "key": "editInGridView",
+        "text": "Edição em Massa ⚡",
+        "iconName": "RegistryEditor",
+        "hide": true
+      },
+      {
+        "key": "exitGridView",
+        "text": "Finalizar Edição em Massa ⚡",
+        "iconName": "RegistryEditor",
+        "hide": true
+      },
+      {
+        "key": "edit",
+        "text": "Atualizar Material",
+        "hide": false,
+        "iconName": "UpdateRestore"
+      },
+      {
+        "key": "delete",
+        "text": "Deletar Cadastro",
+        "iconName": "RecycleBin"
+      },
+      {
+        "key": "versionHistory",
+        "text": "Logs registrados no Sistema X",
+        "iconName": "OfflineStorageSolid"
+      },
+      {
+        "key": "copyLink",
+        "hide": true
+      },
+      {
+        "key": "automate",
+        "text": "Fluxos Automatizados",
+        "hide": true
+      },
+      {
+        "key": "integrate",
+        "hide": true,
+        "sectionType": "Overflow",
+        "position": 1
+      },
+      {
+        "key": "powerAutomate",
+        "hide": true
+      },
+      {
+        "key": "alertMe",
+        "hide": true
+      },
+      {
+        "key": "manageAlert",
+        "hide": true
+      },
+      {
+        "key": "comment",
+        "hide": true
+      },
+      {
+        "key": "automateCreateRule",
+        "hide": true
+      },
+      {
+        "key": "automateManageRules",
+        "hide": true
+      },
+      {
+        "key": "manageAlert",
+        "hide": true
+      },
+      {
+        "key": "export",
+        "text": "Compras em query dinâmica",
+        "iconName": "FileSQL",
+        "hide": true,
+        "position": 1,
+        "sectionType": "Primary"
+      },
+      {
+        "key": "exportExcel",
+        "text": "Compras setor X em Excel",
+        "iconName": "ExcelLogoInverse",
+        "hide": false,
+        "position": 2,
+        "sectionType": "Primary"
+      },
+      {
+        "key": "exportCSV",
+        "text": "Compras setor X em CSV (para Power BI)",
+        "iconName": "ExcelLogoInverse",
+        "hide": false,
+        "position": 3,
+        "sectionType": "Primary"
+      },
+      {
+        "key": "exportCSVWithSchema",
+        "text": "Compras setor X em XML",
+        "iconName": "ExcelDocument",
+        "hide": false,
+        "position": 4,
+        "sectionType": "Primary"
+      }
+    ]
+  }
+}
