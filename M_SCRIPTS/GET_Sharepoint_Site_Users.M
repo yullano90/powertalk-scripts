@@ -16,8 +16,8 @@ let
                 {
                     "IsEmailAuthenticationGuestUser",
                     "IsShareByEmailGuestUser", 
-                    "PrincipalType"
-                    "IsHiddenInUI"
+                    "PrincipalType",
+                    "IsHiddenInUI",
                     "IsSiteAdmin",
                     "Expiration", 
                     "LoginName", 
